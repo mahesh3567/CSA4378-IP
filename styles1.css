@@ -1,0 +1,90 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    background-image: url('https://i.pinimg.com/736x/56/10/49/5610499133ce4227381f39ece7bb0d45.jpg');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url('https://res-console.cloudinary.com/dtymrl2hv/thumbnails/v1/image/upload/v1734685341/Yzk1YTNjNmI4YTRmMzZlNGZlZTBjMjg4ZTcxMjRjZDlfbjA4b2M0/preview');
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-container {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: black;
+    
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 8px;
+    display: none; /* Initially hidden */
+    color: black;
+    
+}
+
+.weather-info .forecast-day {
+    margin-bottom: 20px;
+    float: right;
+    padding: 10px;
+    color: black;
+}
+
+.weather-info .forecast-day img {
+    width: 50px;
+    height: 50px;
+}
+
+.weather-info .forecast-day h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.weather-info .forecast-day p {
+    margin: 5px 0;
+}
