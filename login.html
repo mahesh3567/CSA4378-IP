@@ -11,15 +11,23 @@
         <h2>Login</h2>
         <form action="login.php" method="POST">
             <div class="input-group">
-                <label for="username">Username</label>
+                <label for="username">USERNAME</label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="input-group">
-                <label for="password">Password</label>
+                <label for="password">PASSWORD</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit">Login</button>
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
         </form>
+        <div class="links">
+            <a href="#">Forgot password?</a>
+            <a href="#">Create an account</a>
+        </div>
     </div>
 </body>
 </html>
